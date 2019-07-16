@@ -2,6 +2,7 @@
     width: 500px;
     height: 700px;;
     background-color: #e80f3c;
+    border-radius: 15px;
 
     .logo{
         margin-top: 20px;
@@ -9,6 +10,11 @@
     }
     .app{
         width:100%;
+
+        .num-btn{
+            width: 100px;
+            background-color: white;
+        }
         
     }
 }

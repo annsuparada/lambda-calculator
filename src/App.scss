@@ -1,20 +1,53 @@
 .container {
-    width: 500px;
+    width: 400px;
     height: 700px;;
     background-color: #e80f3c;
     border-radius: 15px;
 
+
     .logo{
         margin-top: 20px;
         margin-left: 20px;
+        margin-bottom: 20px;
     }
-    .app{
+    .App{
         width:100%;
+        margin:20px;
+        display: flex;
+           
+        .display-row{ 
+            flex-direction: column;
+            .special{
+                .special-btn{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    margin: 10px;
+                    background-color: #5151f6;
+                }
+            }
+            .numbers{
+                .num-btn{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    margin: 10px;
+                    background-color: #0909f0;
+                }
+            }
 
-        .num-btn{
-            width: 100px;
-            background-color: white;
+            
         }
+        .operators{
+            .opera-btn{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin: 10px;
+                background-color: #5454c5;
+            }
+        }
+        
         
     }
 }

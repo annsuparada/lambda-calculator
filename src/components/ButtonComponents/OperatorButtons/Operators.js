@@ -8,10 +8,23 @@ import { operators } from '../../../data';
 
 
 
-const Operators = () => {
+const Operators = (props) => {
   // STEP 2 - add the imported data to state
   const [operatorState, setOperatorState] = useState(operators);
-  console.log('operatorState',operatorState)
+  
+  const {setScreenTotal, setPreviousTotal, screenTotal, previousTotal, currentOp, setCurrentOp} = props;
+  // const opClickHandle = (event) =>{
+  //   if (event.target.textContent !== '='){
+  //     setPreviousTotal(screenTotal)
+  //     setScreenTotal(event.target.textContent)
+  //     setOperatorState(event.target.textContent)
+  //   } else{
+  //     let result;
+  //     switch(operatorState) {
+        
+  //     }
+  //   }
+  // }
   return (
     <div className="operators">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button

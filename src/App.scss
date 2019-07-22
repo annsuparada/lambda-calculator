@@ -1,0 +1,69 @@
+.container {
+    width: 400px;
+    height: 700px;;
+    background-color: #e80f3c;
+    border-radius: 15px;
+
+
+    .logo{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .display{
+        width: 100%;
+        background-color: gray;
+    }
+    .App{
+        width:100%;
+        margin:20px;
+        display: flex;
+           
+        .display-row{ 
+            flex-direction: column;
+            .special{
+                .special-btn{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    margin: 10px;
+                    background-color: #5151f6;
+                    font-size: 1.5rem;
+                    color: white;
+                    
+                }
+            }
+            .numbers{
+                .num-btn{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    margin: 10px;
+                    background-color: #0909f0;
+                    font-size: 1.5rem;
+                    color: white;
+                }
+                button:nth-child(10){
+                    width: 140px;
+                    border-radius: 47%;
+                }
+
+            }
+
+            
+        }
+        .operators{
+            .opera-btn{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin: 10px;
+                background-color: #5454c5;
+                font-size: 1.5rem;
+                    color: white;
+            }
+        }
+        
+        
+    }
+}
